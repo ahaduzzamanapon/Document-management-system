@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply p-0 m-0;
+    }
+    .input-search::placeholder {
+        @apply font-solaimans font-extralight text-14 leading-[14px];
+    }
+    #search-folder:focus {
+        @apply w-[18.75em];
+    }
+}
