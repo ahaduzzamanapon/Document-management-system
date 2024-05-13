@@ -19,6 +19,6 @@
         "vue": "^3.2.37"
     },
     "dependencies": {
-        "chart.js": "^4.4.0"
+        "chart.js": "^4.4.2"
     }
 }
