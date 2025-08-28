@@ -11,7 +11,7 @@
     @vite('resources/css/app.css')
     <title>{{ __('messages.title') }}</title>
     <link rel="icon" type="image/x-icon" href="{{ asset('assets/image/logo.png') }}">
-    <!-- <script src="https://cdn.jsdelivr.net/npm/mammoth@1.4.9/mammoth.browser.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/mammoth@1.4.9/mammoth.browser.min.js"></script>
     <script src="{{ asset('assets/js/mammoth.browser.min.js') }}"></script>
     <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
@@ -523,6 +523,7 @@
     <script>
         var langTranslations = @json(__('messages'));
     </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="flex flex-col justify-between 2xl:container mx-auto content_body bg-[#F2F8FF]">
@@ -2009,7 +2010,7 @@
     </div>
     <div id="modalCreateFolder" class="absolute w-[15.625em] h-auto bg-white z-30 py-2 shadow-md hidden show-upload">
         <button class="px-2 w-full py-2 hover:bg-gray-400" onclick="chckprmitionh_folder()">
-            <p class="font-solaimans"> <i class="fa fa-light fa-folder-open" style="color: #007a48;"></i>
+            <p class="font-solaimans"> <i class="fas fa-folder-open" style="color: #007a48;"></i>
                 {{ __('messages.New folder') }}
             </p>
         </button>

@@ -72,7 +72,7 @@
                 <li class="cursor-pointer flex items-center justify-between gap-2 border border-[#E5F1FF] ps-3 py-3 pe-3 {{url()->current() == url('user') ? 'active' : '' }}">
                         <button class="flex items-center gap-2">
                             <span>
-                                <i class="fa fa-solid fa-rocket" style="color: #007a48;"></i>
+                                <i class="fas fa-paper-plane" style="color: #007a48;"></i>
                             </span>
                             <span class="font-solaimans flex-1 text-15 font-medium leading-none">{{ __('messages.Dashboard') }}</span>
                         </button>
