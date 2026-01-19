@@ -10,7 +10,6 @@ class Reminders extends Model
     protected $fillable = [
         'document_id', 'user_id', 'reminder_type', 'reminder_date','if_notified','reminder_time',
     ];
-    
     public function document()
     {
         return $this->belongsTo(Document::class);
